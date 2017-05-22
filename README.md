@@ -1,6 +1,6 @@
 # BIXI-Planner
 
-##TO-DO
+## TO-DO
 - [ ] NodeJS
 - [ ] Logic for selecting stations
 - [ ] Generate multi-step directions with Google Directions API
