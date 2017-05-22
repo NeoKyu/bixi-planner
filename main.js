@@ -1,4 +1,6 @@
+"use strict";
 var http = require("http");
+var request = require("request");
 
 http.createServer(function (request, response) {
    // HTTP Status: 200 : OK
