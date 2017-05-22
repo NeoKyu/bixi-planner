@@ -1,9 +1,9 @@
 # BIXI-Planner
 
 ## TO-DO
-- [ ] NodeJS
+- [x] NodeJS
 - [ ] Logic for selecting stations
 - [ ] Generate multi-step directions with Google Directions API
 - [ ] Refine process/Recommend optimal path
-- [ ] MongoDB
-- [ ] Update DB regularly
+- [x] MongoDB
+- [x] Update DB regularly
