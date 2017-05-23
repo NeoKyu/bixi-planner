@@ -31,14 +31,14 @@ var updateStations = function(db, stationJSON) {
                                             {
                                                 "_id":stationJSON["stations"][i]["id"],
                                                 "s":stationJSON["stations"][i]["s"],
-                                                "la":stationJSON["stations"][i]["la"],
-                                                "lo":stationJSON["stations"][i]["lo"],
+                                                "loc":[stationJSON["stations"][i]["lo"],stationJSON["stations"][i]["la"]],
                                                 "da":stationJSON["stations"][i]["da"],
                                                 "ba":stationJSON["stations"][i]["ba"],
                                                 "lc":stationJSON["stations"][i]["lc"]
                                             },
                                             {upsert:true});
     }
+    console.log("update complete");
 };
 
 MongoClient.connect(url_mongo, function(err, db) {
