@@ -1,0 +1,23 @@
+{
+  "name": "bixi-planner",
+  "version": "1.0.0",
+  "description": "tool to plan bicycle trips using bixi",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeoKyu/BIXI-Planner.git"
+  },
+  "author": "Michael Foo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeoKyu/BIXI-Planner/issues"
+  },
+  "homepage": "https://github.com/NeoKyu/BIXI-Planner#readme",
+  "dependencies": {
+    "mongodb": "^2.2.27",
+    "request": "^2.81.0"
+  }
+}
