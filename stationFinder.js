@@ -1,9 +1,3 @@
-// TODO:
-// - "cache" travel times
-// - cleanup code:
-//      - better names for variables in getTravelTimes
-//      - better column names in the db
-
 "use strict";
 
 var fs = require("fs");
