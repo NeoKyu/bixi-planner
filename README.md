@@ -14,9 +14,12 @@
 - [ ] Refine process/Recommend optimal path
 - [ ] Better variables/column names overall (also in DB)
 - [ ] Make a front-end for it (Learn React or something)
+  - [ ] Make Map show up
+  - [ ] Make Directions show on map
 - [ ] Deploy/Put it online (Heroku or something)
 
 ## Related Ideas for later
 - [ ] Visualizations about BIXI data (trips, station data, etc) using pyplot or d3.js
 - [ ] Predicting trips or stations availabilities
 - [ ] Alerts when station is full/empty
+- [ ] Transit integration
